@@ -10,14 +10,10 @@ class Scraper
       card.css(".student-card a").each do |student|
       index_page = student.css(".view").text
 
-
-
         binding.pry
     students = []
   end
 
   def self.scrape_profile_page(profile_url)
-
   end
-
 end
